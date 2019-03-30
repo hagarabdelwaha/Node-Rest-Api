@@ -1,0 +1,21 @@
+{
+  "name": "node_app",
+  "version": "1.0.0",
+  "description": "studing node",
+  "main": "index.js",
+  "scripts": {
+    "test": "test ",
+    "start": "node index.js",
+    "start-watch": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.20"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
